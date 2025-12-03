@@ -8,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sass:build":"sass --no-source-map ./src/assets/css/custom_bootstrap.sass ./src/assets/css/custom_bootstrap.css",
-    "sass:watch":"sass --no-source-map --watch ./src/assets/css/custom_bootstrap.sass ./src/assets/css/custom_bootstrap.css"
+    "sass:build": "sass --no-source-map ./src/assets/css/custom_bootstrap.sass ./src/assets/css/custom_bootstrap.css",
+    "sass:watch": "sass --no-source-map --watch ./src/assets/css/custom_bootstrap.sass ./src/assets/css/custom_bootstrap.css"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
@@ -17,7 +17,8 @@
     "react": "^19.2.0",
     "react-card-slider-component": "^1.0.9",
     "react-dom": "^19.2.0",
-    "sass": "^1.94.2"
+    "sass": "^1.94.2",
+    "vazirmatn": "^33.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",

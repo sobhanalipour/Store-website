@@ -12,7 +12,7 @@ function Navber() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-4 fw-bold">
                         <li className="nav-item dropdown">
-                            <a id="Dropdown" className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a id="Dropdown" className="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 دسته بندی ها
                             </a>
                             <ul className="dropdown-menu">
@@ -27,7 +27,7 @@ function Navber() {
                         </li>
                         <li className="nav-item1 d-flex">
                             <i className="bi bi-bookmark-heart text-danger"></i>
-                            <a className="nav-link active text-white" aria-current="page" href="#">علاقه مندی</a>
+                            <a className="nav-link active" aria-current="page" href="#">علاقه مندی</a>
                         </li>
                         <li className="nav-item2">
                             <a className="nav-link" href="#"><button classNameName="bg-warning rounded"><i className="bi bi-arrow-bar-left px-2"></i>ورود | ثبت نام</button></a>

@@ -2,7 +2,7 @@ import "../Card/Card.css/"
 
 function Card() {
     return (
-        <div class="card border-0 rounded-0 shadow" style="width: 18rem;">
+        <div class="card border-0 rounded-0 shadow">
             <img src="..." class="card-img-top rounded-0" alt="..." />
                 <div class="card-body mt-3 mb-3">
                     <div class="row">

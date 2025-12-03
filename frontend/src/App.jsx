@@ -82,6 +82,8 @@ function App() {
         </div>
       </div>
 
+      <hr />
+
       <Footer />
     </section>
   )

@@ -1,100 +1,26 @@
-/* nav {
-    color: #fff;
-    padding: 10px 20px;
-    box-shadow: 0 0 30px #000000;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    height: 70px;
-}
-
-
-.navbar-brand img {
-    width: 7rem;
-    filter: drop-shadow(0 2px 3px #ffffff);
-}
-
-
-.nav-item1 a {
-    font-size: 19px;
-    color: #000;
-    transition: 0.3s;
-}
-
-.nav-item1 a:hover {
-    color: #EFB80B;
-    transform: translateY(-2px);
-}
-
-
-.nav-item1 i {
-    font-size: 33px;
-}
-
-.nav-item2 button {
-    width: 144px;
-    height: 40px;
-    background: #fff;
-    color: #000;
-    border: 1px solid #000;
-    border-radius: 8px;
-    transition: .3s;
-}
-
-.nav-item2 button:hover {
-    background: #EFB80B;
-    color: #000000;
-    transform: translateY(-2px);
-}
-
-.nav-item2 a button i {
-    font-size: 18px;
-}
-
-.nav-item3 a i {
-    font-size: 25px;
-    color: #000;
-    transition: .3s;
-}
-
-.nav-item3 a i:hover {
-    color: #EFB80B;
-    transform: scale(1.2);
-}
-
-
-form input {
-    height: 50px;
-    border-radius: 8px;
-    border: none;
-    padding: 10px 15px;
-}
-
-#Dropdown {
-    font-size: 21px;
-} */
-
-
 nav {
     color: #fff;
     padding: 10px 20px;
     box-shadow: 0 0 30px #000000;
     top: 0;
     z-index: 999;
-    height: 70px;
 }
 
 nav .navbar-nav a.nav-link {
     font-size: 1.1em;
 }
 
+.navbar-brand img {
+    width: 7rem;
+}
+
+
 .nav-item1 a {
-    font-size: 50px;
     transition: 0.3s;
 }
 
 .nav-item1 a:hover {
-    color: #EFB80B;
+    color: #0118D8 !important;
     transform: translateY(-2px);
 }
 
@@ -105,9 +31,6 @@ nav .navbar-nav a.nav-link {
 
 .nav-item2 button {
     height: 40px;
-    background: #1B56FD;
-    color: #fff;
-    border: 1px solid #000;
     border-radius: 8px;
     transition: .3s;
 }
@@ -116,11 +39,20 @@ nav .navbar-nav a.nav-link {
     transform: translateY(-2px);
 }
 
+.nav-item3 a i {
+    font-size: 25px;
+    transition: .3s;
+}
+
+.nav-item3 a i:hover {
+    color: #0118D8;
+    transform: scale(1.2);
+}
+
 .dropdown-menu {
     box-shadow: 0 3px 6px #000, 0 3px 6px #000;
     border: none;
     border-radius: 0;
-    padding: 0.7em;
 }
 
 @media only screen and (min-width: 992px) {

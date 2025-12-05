@@ -1,4 +1,4 @@
-nav {
+/* nav {
     color: #fff;
     padding: 10px 20px;
     box-shadow: 0 0 30px #000000;
@@ -72,4 +72,102 @@ form input {
 
 #Dropdown {
     font-size: 21px;
+} */
+
+
+nav {
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 0 30px #000000;
+    top: 0;
+    z-index: 999;
+    height: 70px;
+}
+
+nav .navbar-nav a.nav-link {
+    font-size: 1.1em;
+}
+
+.nav-item1 a {
+    font-size: 50px;
+    transition: 0.3s;
+}
+
+.nav-item1 a:hover {
+    color: #EFB80B;
+    transform: translateY(-2px);
+}
+
+
+.nav-item1 i {
+    font-size: 30px;
+}
+
+.nav-item2 button {
+    height: 40px;
+    background: #1B56FD;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.nav-item2 button:hover {
+    transform: translateY(-2px);
+}
+
+.dropdown-menu {
+    box-shadow: 0 3px 6px #000, 0 3px 6px #000;
+    border: none;
+    border-radius: 0;
+    padding: 0.7em;
+}
+
+@media only screen and (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: flex;
+    }
+
+    .dropdown-menu.show {
+        display: flex;
+    }
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-menu li .dropdown-item {
+    font-size: 1em;
+    padding: 0.5em 1em;
+}
+
+.dropdown-menu li .dropdown-item:hover {
+    text-decoration: underline #EFB80B;
+}
+
+.dropdown-menu li:first-child {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.dropdown-menu li:first-child:hover {
+    background-color: #f1f1f1;
+}
+
+@media only screen and (max-width: 992px) {
+    .dropdown-menu.show {
+        flex-wrap: wrap;
+        max-height: 350px;
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+    .dropdown:hover .dropdown-menu {
+        width: 40vw;
+        flex-wrap: wrap;
+    }
 }
